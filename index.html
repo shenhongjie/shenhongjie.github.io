@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+*{margin: 0;padding: 0;}
+input{width: 750px;height: 200px;opacity: 0;}
+
+div{width: 750px;height: 200px;position: absolute;top:0;pointer-events: none;overflow: hidden;}
+
+
+	</style>
+
+</head>
+<body>
+	
+
+
+
+
+<input id='date' width="750" type= "date">	
+<div>
+	<span></span><span></span><span></span>
+</div>
+
+<script>
+	
+	var  oDate = document.getElementById("date");
+	var  aSpan = document.getElementsByTagName("span");
+
+     oDate.onchange = function(){
+     	var oDateN = oDate.value;
+        
+        var arr = oDateN.split('-');
+
+     	var Year = arr[0];
+     	var Month = arr[1];
+     	var Dates = arr[2];
+    	 //  console.log(oDate.value);
+
+    	 	aSpan[0].innerHTML = Year+"年";    	 	
+    	 	aSpan[1].innerHTML = Month+"月";
+    	 	aSpan[2].innerHTML = Dates+"日";
+    }
+  
+
+</script>
+
+
+
+
+</sbody>
+</html>
