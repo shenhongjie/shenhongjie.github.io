@@ -1,0 +1,107 @@
+
+.header{
+	width:99%;
+}
+.header .logo span{
+	padding-left: 5%;
+}
+.header .searchbox{
+	width: 43.66666%;
+	float: left;
+	padding-left: 21.66666%;
+}
+.header .search{
+	width:100%;
+}
+.header .search .searchhd{
+	width: 19.827%;
+}
+.header .search input{
+	width: 59.05172%;
+}
+.header .search .searchft{
+	width:18.8275%;
+}
+.nav .navinner{
+	width:99%;
+}
+
+.nav .navinner ul li{
+	width:7.516778523489932%;
+	text-align: center;
+}
+.nav .navinner ul li:nth-child(2){
+	width:11.275167785234899%;
+}
+.nav .navinner ul li:last-child{
+	width:11.677852348993288%;
+}
+.nav .navinner ul li a{
+	width:100%;
+	padding:0;
+}
+
+.banner1 .tuul li{
+	background: url(../images/padbanner1.jpg) no-repeat center top;
+}
+.banner1 .tuul li.no2{
+	background-image: url(../images/padbanner2.jpg);
+}
+.banner1 .tuul li.no3{
+	background-image: url(../images/padbanner3.jpg);
+}
+.banner1 .tuul li.no4{
+	background-image: url(../images/padbanner4.jpg);
+}
+#dr_dc{
+	height:300px;
+}
+#content{
+	width:99%;
+}
+#content ul.new li {
+	padding-right: 0.8333333333333333%;
+	width:16.666666666666668%;
+	box-sizing:border-box;
+}
+#content ul.new li img{
+	width:100%;
+}
+.renqi{
+	width:99%;
+}
+.renqi .rec_sku li{
+	width:15%;
+	margin-right:1.6666666666666666%;
+}
+.renqi .rec_sku li img{
+	width:100%;
+}
+.renqi .rec_sku li .s_picBox{
+	width:100%;
+}
+.renqi .rec_sku li .s_picBox{
+	width:100%;
+}
+/*#footer{
+	height:355px;
+}*/
+#footer .footerinner .ft{
+	width:99%;
+}
+#footer .footerinner ul{
+	width:20.611702127659576%;
+	padding-right: 0;
+}
+#footer .footerinner ul p{
+	font:bold 14px/42px "宋体";
+}
+#footer .footerinner .weibo{
+	width:14.420213%;
+}
+#footer .footerinner .weibo img{
+	width:100%;
+}
+#footer .footerinner .weibo p{
+	font:bold 12px/42px "宋体";
+}
